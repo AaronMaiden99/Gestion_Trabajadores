@@ -39,6 +39,7 @@ document.querySelector("#enviar").addEventListener("click", () => {
     //resetear el aspecto
     $name.value = ""
     apellido.value=""
+    email.value=""
     departamento.selectedIndex = 0;
 
 })
